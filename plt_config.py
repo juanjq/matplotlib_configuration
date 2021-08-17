@@ -109,7 +109,7 @@ def default():
                                             'lines.linewidth' : 1,
                                             'lines.marker' : None,
                                             #axes
-                                            'axes.facecolor' :'w',
+                                            'axes.facecolor' :'k',
                                             'axes.edgecolor' :'k',
                                             'axes.linewidth' :1,
                                             'axes.titlesize' : 18,
