@@ -99,7 +99,7 @@ def default():
                                             'figure.dpi' : 80,
                                             'savefig.dpi' : 200,
                                             'savefig.format' : 'pdf',
-                                            'savefig.transparent' : True,
+                                            'savefig.transparent' : False,
                                             'figure.dpi' : 100,
                                             #errorbars
                                             'errorbar.capsize' : 3,
