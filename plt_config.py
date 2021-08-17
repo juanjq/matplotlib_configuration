@@ -67,8 +67,12 @@ def params():
 def default():
     plt.rcParams.update(plt.rcParamsDefault)
 
+    
+from contextlib import contextmanger
+
+@contextmanager    
 def context():   
-    return   plt.rc_context( rc={'font.size':20,
+    with   plt.rc_context( rc={'font.size':20,
                                'figure.figsize':(16,9) ,
                                 #LaTex font
                                 'mathtext.fontset' : 'custom',
@@ -125,4 +129,5 @@ def context():
                                 'legend.fontsize' :17,
                                 'legend.markerscale' :1.5,
                                 #colors
-                                'axes.prop_cycle' : plt.cycler(color=['darkblue','darkviolet','deeppink','crimson','darkorange','gold']) })
+                                'axes.prop_cycle' : plt.cycler(color=['darkblue','darkviolet','deeppink','crimson','darkorange','gold']) }):
+        yield
