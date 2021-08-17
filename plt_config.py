@@ -93,7 +93,7 @@ context = partial(plt.rc_context, rc:{  'font.size' : 18,
                                         'ytick.minor.size' : 5,
                                         'ytick.minor.width' : 1,
                                         #figure
-                                        'figure.facecolor' : 'w',
+                                        'figure.facecolor' : 'k',
                                         'figure.frameon' : False,
                                         'figure.dpi' : 80,
                                         'savefig.dpi' : 200,
