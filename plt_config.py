@@ -68,7 +68,7 @@ def default():
     plt.rcParams.update(plt.rcParamsDefault)
 
  def context():   
-    return   partial(plt.rc_context, rc:{  'font.size' : 18,
+    return   partial(plt.rc_context, rc={  'font.size' : 18,
                                             #figure size
                                             'figure.figsize' : (16,9),
                                             #LaTex font
@@ -126,6 +126,6 @@ def default():
                                             'legend.fontsize' :17,
                                             'legend.markerscale' :1.5,
                                             #colors
-                                            'axes.prop_cycle' : plt.cycler(color:[
+                                            'axes.prop_cycle' : plt.cycler(color=[
                                                 'darkblue','darkviolet','deeppink','crimson','darkorange','gold']) 
                                                 })
