@@ -67,126 +67,62 @@ def params():
 def default():
     plt.rcParams.update(plt.rcParamsDefault)
 
-#  def context():   
-#     return   partial(plt.rc_context, rc={'font.size' : 18,
-#                                        'figure.figsize':(16,9) ,
-#                                         #LaTex font
-#                                         'mathtext.fontset' : 'custom',
-#                                         'mathtext.rm' : 'Bitstream Vera Sans',
-#                                         'mathtext.it' : 'Bitstream Vera Sans:italic',
-#                                         'mathtext.bf' : 'Bitstream Vera Sans:bold',
-#                                         'mathtext.fontset' : 'stix',
-#                                         'font.family' : 'STIXGeneral',
-#                                         ticks
-#                                         "xtick.direction" : 'in',
-#                                         "ytick.direction" : 'in',
-#                                         'xtick.top' : True,
-#                                         'ytick.right' : True,
-#                                         'xtick.minor.visible' : True,
-#                                         'ytick.minor.visible' : True,
-#                                         'xtick.major.size' : 8,
-#                                         'xtick.major.width' : 2,
-#                                         'xtick.minor.size' : 5,
-#                                         'xtick.minor.width' : 1,
-#                                         'ytick.major.size' : 8,
-#                                         'ytick.major.width' : 2,
-#                                         'ytick.minor.size' : 5,
-#                                         'ytick.minor.width' : 1,
-#                                         #figure
-#                                         'figure.facecolor' : 'k',
-#                                         'figure.frameon' : False,
-#                                         'figure.dpi' : 80,
-#                                         'savefig.dpi' : 200,
-#                                         'savefig.format' : 'pdf',
-#                                         'savefig.transparent' : False,
-#                                         'figure.dpi' : 100,
-#                                         #errorbars
-#                                         'errorbar.capsize' : 3,
-#                                         #histograms
-#                                         'hist.bins' : 30,
-#                                         #lines
-#                                         'lines.linewidth' : 1,
-#                                         'lines.marker' : None,
-#                                         #axes
-#                                         'axes.facecolor' :'k',
-#                                         'axes.edgecolor' :'k',
-#                                         'axes.linewidth' :1,
-#                                         'axes.titlesize' : 18,
-#                                         'axes.labelsize' : 18,
-#                                         'axes.labelcolor' : 'k',
-#                                         #grid
-#                                         'axes.grid' :False,
-#                                         'grid.color' :'k',
-#                                         'grid.linestyle' :'-',
-#                                         'grid.linewidth' :0.5,
-#                                         'grid.alpha' :1,
-#                                         #legend
-#                                         'legend.fancybox' :True,
-#                                         'legend.fontsize' :17,
-#                                         'legend.markerscale' :1.5,
-#                                         #colors
-#                                         'axes.prop_cycle' : plt.cycler(color=['darkblue','darkviolet','deeppink','crimson','darkorange','gold']) })
-
-
-
-
-global context
-context=partial(plt.rc_context, rc={'font.size' : 18,
-                                   'figure.figsize':(16,9) ,
-                                    #LaTex font
-                                    'mathtext.fontset' : 'custom',
-                                    'mathtext.rm' : 'Bitstream Vera Sans',
-                                    'mathtext.it' : 'Bitstream Vera Sans:italic',
-                                    'mathtext.bf' : 'Bitstream Vera Sans:bold',
-                                    'mathtext.fontset' : 'stix',
-                                    'font.family' : 'STIXGeneral',
-                                    ticks
-                                    "xtick.direction" : 'in',
-                                    "ytick.direction" : 'in',
-                                    'xtick.top' : True,
-                                    'ytick.right' : True,
-                                    'xtick.minor.visible' : True,
-                                    'ytick.minor.visible' : True,
-                                    'xtick.major.size' : 8,
-                                    'xtick.major.width' : 2,
-                                    'xtick.minor.size' : 5,
-                                    'xtick.minor.width' : 1,
-                                    'ytick.major.size' : 8,
-                                    'ytick.major.width' : 2,
-                                    'ytick.minor.size' : 5,
-                                    'ytick.minor.width' : 1,
-                                    #figure
-                                    'figure.facecolor' : 'k',
-                                    'figure.frameon' : False,
-                                    'figure.dpi' : 80,
-                                    'savefig.dpi' : 200,
-                                    'savefig.format' : 'pdf',
-                                    'savefig.transparent' : False,
-                                    'figure.dpi' : 100,
-                                    #errorbars
-                                    'errorbar.capsize' : 3,
-                                    #histograms
-                                    'hist.bins' : 30,
-                                    #lines
-                                    'lines.linewidth' : 1,
-                                    'lines.marker' : None,
-                                    #axes
-                                    'axes.facecolor' :'k',
-                                    'axes.edgecolor' :'k',
-                                    'axes.linewidth' :1,
-                                    'axes.titlesize' : 18,
-                                    'axes.labelsize' : 18,
-                                    'axes.labelcolor' : 'k',
-                                    #grid
-                                    'axes.grid' :False,
-                                    'grid.color' :'k',
-                                    'grid.linestyle' :'-',
-                                    'grid.linewidth' :0.5,
-                                    'grid.alpha' :1,
-                                    #legend
-                                    'legend.fancybox' :True,
-                                    'legend.fontsize' :17,
-                                    'legend.markerscale' :1.5,
-                                    #colors
-                                    'axes.prop_cycle' : plt.cycler(color=['darkblue','darkviolet','deeppink','crimson','darkorange','gold']) })
-
+def context():   
+    return   partial(plt.rc_context, rc={'font.size' : 18,
+                                       'figure.figsize':(16,9) ,
+                                        #LaTex font
+                                        'mathtext.fontset' : 'custom',
+                                        'mathtext.rm' : 'Bitstream Vera Sans',
+                                        'mathtext.it' : 'Bitstream Vera Sans:italic',
+                                        'mathtext.bf' : 'Bitstream Vera Sans:bold',
+                                        'mathtext.fontset' : 'stix',
+                                        'font.family' : 'STIXGeneral',
+                                        #ticks
+                                        'xtick.direction' : 'in',
+                                        'ytick.direction' : 'in',
+                                        'xtick.top' : True,
+                                        'ytick.right' : True,
+                                        'xtick.minor.visible' : True,
+                                        'ytick.minor.visible' : True,
+                                        'xtick.major.size' : 8,
+                                        'xtick.major.width' : 2,
+                                        'xtick.minor.size' : 5,
+                                        'xtick.minor.width' : 1,
+                                        'ytick.major.size' : 8,
+                                        'ytick.major.width' : 2,
+                                        'ytick.minor.size' : 5,
+                                        'ytick.minor.width' : 1,
+                                        #figure
+                                        'figure.facecolor' : 'k',
+                                        'figure.frameon' : False,
+                                        'figure.dpi' : 80,
+                                        'savefig.dpi' : 200,
+                                        'savefig.format' : 'pdf',
+                                        'savefig.transparent' : False,
+                                        'figure.dpi' : 100,
+                                        #errorbars
+                                        'errorbar.capsize' : 3,
+                                        #histograms
+                                        'hist.bins' : 30,
+                                        #lines
+                                        'lines.linewidth' : 1,
+                                        'lines.marker' : None,
+                                        #axes
+                                        'axes.facecolor' :'k',
+                                        'axes.edgecolor' :'k',
+                                        'axes.linewidth' :1,
+                                        'axes.titlesize' : 18,
+                                        'axes.labelsize' : 18,
+                                        'axes.labelcolor' : 'k',
+                                        #grid
+                                        'axes.grid' :False,
+                                        'grid.color' :'k',
+                                        'grid.linestyle' :'-',
+                                        'grid.linewidth' :0.5,
+                                        'grid.alpha' :1,
+                                        #legend
+                                        'legend.fancybox' :True,
+                                        'legend.fontsize' :17,
+                                        'legend.markerscale' :1.5,
+                                        #colors
+                                        'axes.prop_cycle' : plt.cycler(color=['darkblue','darkviolet','deeppink','crimson','darkorange','gold']) })
