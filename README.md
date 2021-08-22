@@ -1,0 +1,2 @@
+# matplotlib_configuration
+Matplotlib configuration
