@@ -30,7 +30,7 @@ def params():
     #figure
     plt.rcParams['figure.facecolor'] = 'w'
     plt.rcParams['figure.frameon'] = False
-    plt.rcParams['figure.dpi'] = 80
+    plt.rcParams['figure.dpi'] = 200
     plt.rcParams['savefig.dpi'] = 200
     plt.rcParams['savefig.format'] = 'pdf'
     plt.rcParams['savefig.transparent'] = True
@@ -61,7 +61,25 @@ def params():
     plt.rcParams['legend.markerscale'] =1.5
     #colors
     plt.rcParams['axes.prop_cycle'] = plt.cycler(color=[
-        'darkblue','darkviolet','deeppink','crimson','darkorange','gold'])
+        'darkblue','darkviolet','deeppink','crimson','orangered','darkorange','sandybrown','gold','yellow'])
+
+def simple():   
+    plt.rcParams['mathtext.fontset'] = 'custom'
+    plt.rcParams['mathtext.rm'] = 'Bitstream Vera Sans'
+    plt.rcParams['mathtext.it'] = 'Bitstream Vera Sans:italic'
+    plt.rcParams['mathtext.bf'] = 'Bitstream Vera Sans:bold'
+    plt.rcParams['mathtext.fontset'] = 'stix'
+    plt.rcParams['font.family'] = 'STIXGeneral'
+   
+    plt.rcParams['savefig.format'] = 'pdf'
+    plt.rcParams['savefig.transparent'] = True
+    plt.rcParams['figure.dpi'] = 100
+   
+    plt.rcParams['axes.prop_cycle'] = plt.cycler(color=[
+        'darkblue','darkviolet','deeppink','crimson','orangered','darkorange','sandybrown','gold','yellow'])
+        
+    
+    
     
 def default():
     plt.rcParams.update(plt.rcParamsDefault)
@@ -93,7 +111,7 @@ with   plt.rc_context( rc={'font.size':20,
                             #figure
                             'figure.facecolor' : 'w',
                             'figure.frameon' : False,
-                            'figure.dpi' : 80,
+                            'figure.dpi' : 200,
                             'savefig.dpi' : 200,
                             'savefig.format' : 'pdf',
                             'savefig.transparent' : True,
@@ -123,7 +141,8 @@ with   plt.rc_context( rc={'font.size':20,
                             'legend.fontsize' :17,
                             'legend.markerscale' :1.5,
                             #colors
-                            'axes.prop_cycle' : plt.cycler(color=['darkblue','darkviolet','deeppink','crimson','darkorange','gold']) }):
+                            'axes.prop_cycle' : plt.cycler(color=
+                                                           ['darkblue','darkviolet','deeppink','crimson','orangered','darkorange','sandybrown','gold','yellow']) }):
     
     
     pass
