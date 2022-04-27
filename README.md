@@ -16,7 +16,9 @@ A simple configuration but with some features that the default version do not ha
 
 * `n` is the textsize
  
-```plt_config.simple(n)```
+```
+plt_config.simple(n)
+```
 
 An example:
 
@@ -28,7 +30,9 @@ A more complex configuration of matplotlib With things as LaTex text, personaliz
 
 * `n` is the textsize
  
-```plt_config.complex(n)```
+```
+plt_config.complex(n)
+```
 
 An example:
 
@@ -38,7 +42,9 @@ An example:
 # `default()`
 The default configuration of matplotlib.
  
-```plt_config.default()```
+```
+plt_config.default()
+```
 
 An example:
 
