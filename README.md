@@ -15,11 +15,15 @@ And we have different options to use it,
 A simple configuration but with some features that the default version do not have. As LaTex text, textsize changing and colors.
 
 * `n` is the textsize
-
+ 
+```plt_config.simple(n)```
 # `complex(n)`
 A more complex configuration of matplotlib With things as LaTex text, personalized ticks, colors and etc.
 
 * `n` is the textsize
-*
+ 
+```plt_config.complex(n)```
 # `default()`
 The default configuration of matplotlib.
+ 
+```plt_config.default()```
