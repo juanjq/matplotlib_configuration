@@ -14,7 +14,6 @@ def complex(n=18):
     plt.rcParams['mathtext.rm']      = 'Bitstream Vera Sans'
     plt.rcParams['mathtext.it']      = 'Bitstream Vera Sans:italic'
     plt.rcParams['mathtext.bf']      = 'Bitstream Vera Sans:bold'
-
     
     #ticks
     plt.rcParams["xtick.direction"]     = "in"
@@ -95,14 +94,12 @@ def simple(n=18):
     plt.rcParams['hist.bins'] = 30
     
     #errorbars
-    plt.rcParams['errorbar.capsize'] = 3
-    
+    plt.rcParams['errorbar.capsize'] = 3   
    
     #colors
     plt.rcParams['axes.prop_cycle'] = plt.cycler(color=[
         'darkblue','darkviolet','deeppink','crimson','orangered','darkorange','sandybrown','gold','yellow'])
         
-    
     
     
 def default():
@@ -123,7 +120,6 @@ with   plt.rc_context( rc={
     plt.rcParams['mathtext.rm']      = 'Bitstream Vera Sans'
     plt.rcParams['mathtext.it']      = 'Bitstream Vera Sans:italic'
     plt.rcParams['mathtext.bf']      = 'Bitstream Vera Sans:bold'
-
     
     #ticks
     plt.rcParams["xtick.direction"]     = "in"
