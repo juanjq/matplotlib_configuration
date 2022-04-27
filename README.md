@@ -32,7 +32,8 @@ A more complex configuration of matplotlib With things as LaTex text, personaliz
 
 An example:
 
-![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/complex.png?raw=true  | width=100px)
+<img src="https://github.com/juanjq/matplotlib_configuration/blob/main/data/complex.png?raw=true" width="600">
+
 
 # `default()`
 The default configuration of matplotlib.
