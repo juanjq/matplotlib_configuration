@@ -19,7 +19,7 @@ A simple configuration but with some features that the default version do not ha
 ```plt_config.simple(n)```
 
 An example:
-![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/simple.pdf?raw=true)
+![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/simple.png?raw=true)
 
 
 # `complex(n)`
@@ -30,7 +30,7 @@ A more complex configuration of matplotlib With things as LaTex text, personaliz
 ```plt_config.complex(n)```
 
 An example:
-![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/simple.png?raw=true)
+![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/complex.png?raw=true)
 
 # `default()`
 The default configuration of matplotlib.
@@ -38,5 +38,5 @@ The default configuration of matplotlib.
 ```plt_config.default()```
 
 An example:
-![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/simple.png?raw=true)
+![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/default.png?raw=true)
 
