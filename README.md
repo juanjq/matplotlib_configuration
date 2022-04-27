@@ -19,7 +19,7 @@ A simple configuration but with some features that the default version do not ha
 ```plt_config.simple(n)```
 
 An example:
-![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/simple.png?raw=true)
+![alt text](https://github.com/juanjq/matplotlib_configuration/blob/main/data/simple.pdf?raw=true)
 
 
 # `complex(n)`
