@@ -33,6 +33,7 @@ def complex(n=18):
     
     #figure
     plt.rcParams['figure.facecolor']    = 'w'
+    
     plt.rcParams['figure.frameon']      = False
     plt.rcParams['figure.dpi']          = 200
     plt.rcParams['savefig.dpi']         = 200
