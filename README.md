@@ -1,7 +1,7 @@
 # matplotlib_configuration
 A script to use matplotlib configurations.
 
-For installing it you can do:
+For installing it you can do,
 
 ```
 import httpimport
