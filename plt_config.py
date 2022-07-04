@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 
 def complex(n=18):   
-    
-    #fontsize
+   
+    # fontsize
     plt.rcParams['font.size'] = n   
     
-    #figure size
+    # figure size
     plt.rcParams['figure.figsize'] = 16,9    
     
     #LaTex font
